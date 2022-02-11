@@ -11,11 +11,6 @@
     --text-second: #2B3442;
     --body-background: #F6F8FF;
     --element-background: #FEFEFE;
-
-    /* --dark-mode-blue: #0079FF;
-    --dark-mode-white: #FFFFFF;
-    --dark-mode-dark: #141D2F;
-    --dark-mode-dark-blue: #1E2A47; */
 }
 
 body {
@@ -149,6 +144,7 @@ form .error {
         "picture data data";
     grid-column-gap: 36px;
     padding: 40px;
+    margin-bottom: 16px;
     background-color: var(--element-background);
     border-radius: 15px;
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
