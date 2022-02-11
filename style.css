@@ -47,7 +47,7 @@ body {
     color: var(--text-second);
 }
 
-.top .dark-mode {
+.dark-mode {
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -58,8 +58,12 @@ body {
     cursor: pointer;
 }
 
-.top .dark-mode:hover {
+.dark-mode:hover {
     filter: invert(10%) sepia(10%) saturate(1830%) hue-rotate(181deg) brightness(89%) contrast(85%);
+}
+
+.dark-mode.light {
+    color: white;
 }
 
 .dark-mode .icon {

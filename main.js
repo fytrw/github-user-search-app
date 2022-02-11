@@ -73,6 +73,8 @@ const changeMode = () => {
         root.style.setProperty('--text-second', '#FFFFFF');
         root.style.setProperty('--text', '#FFFFFF');
         root.style.setProperty('--gray', '#FFFFFF');
+        darkModeBtn.innerHTML = `light <img src="assets/icon-sun.svg" alt="" class="icon">`;
+        darkModeBtn.classList.add('light');
         
     } else {
         flagMode = !flagMode;
@@ -81,6 +83,9 @@ const changeMode = () => {
         root.style.setProperty('--text-second', '#2B3442');
         root.style.setProperty('--text', '#4B6A9B');
         root.style.setProperty('--gray', '#697C9A');
+        darkModeBtn.innerHTML = `dark <img src="assets/icon-moon.svg" alt="" class="icon">`;
+        darkModeBtn.classList.remove('light');
+
     }
 }
 
