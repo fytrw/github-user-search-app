@@ -4,6 +4,6 @@
 ---
 ### Links
 
-[GithubPages Link]()
+[GithubPages Link](https://fytrw.github.io/github-user-search-app/)
 
-[Vercel Link]()
+[Vercel Link](https://github-user-search-app-zeta.vercel.app/)
