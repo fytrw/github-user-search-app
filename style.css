@@ -84,8 +84,7 @@ body {
 }
 
 .search-icon {
-    margin-left: 24px;
-    margin-right: 24px;
+    margin: 0 24px;
 }
 
 .search-bar input {
